@@ -15,7 +15,7 @@ doctrine:
     orm:
         mappings:
             Money:
-                dir: "%kernel.root_dir%/../vendor/simpod/doctrine-money/src/doctrine/orm"
+                dir: "%kernel.project_dir%/../vendor/simpod/doctrine-money/src/doctrine/orm"
                 prefix: Money
                 type: xml
 ```
