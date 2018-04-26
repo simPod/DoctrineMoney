@@ -19,3 +19,13 @@ doctrine:
                 prefix: Money
                 type: xml
 ```
+
+Then in entity you can add property of type `Money\Money`:
+
+```php
+/**
+ * @var Money
+ * @ORM\Embedded(class="Money\Money")
+ */
+private $money;
+```
