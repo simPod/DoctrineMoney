@@ -1,3 +1,5 @@
+_The project is abandoned. Avoid embeddables and use [brick/money](https://github.com/brick/money). No Doctrine types needed._
+
 # Doctrine Money
 
 [![Build Status](https://img.shields.io/travis/simPod/DoctrineMoney/master.svg?style=flat-square)](https://travis-ci.org/simPod/DoctrineMoney)
